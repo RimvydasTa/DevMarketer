@@ -12,3 +12,8 @@
 
 //Buefy scss
 @import "~buefy/src/scss/buefy";
+
+//Custom scss
+@import "overrides";
+@import "helpers";
+@import "styles";
