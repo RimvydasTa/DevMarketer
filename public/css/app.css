@@ -17556,11 +17556,11 @@ a.is-active:hover {
 
 .dropdown .dropdown-menu {
   display: none;
+  background-color: #fff;
   position: absolute;
   left: 0;
   top: 103%;
   z-index: 1000;
-  background-color: white;
   min-width: 200px;
   text-align: left;
   -webkit-box-shadow: 0 0 1px rgba(57, 70, 78, 0.15), 0 20px 55px -8px rgba(57, 70, 78, 0.25);
@@ -18012,5 +18012,26 @@ button.navbar-item.is-active {
 
 .p-r-100 {
   padding-right: 100px !important;
+}
+
+.side-menu {
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  width: 200px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.management-area {
+  position: absolute;
+  top: 4rem;
+  left: 200px;
+  right: 0;
+}
+
+.flex-container {
+  margin: 10px 25px;
+  padding-left: 200px;
 }
 

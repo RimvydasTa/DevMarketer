@@ -10,11 +10,11 @@ a.is-active:hover {
   
   .dropdown-menu {
     display: none;
+    background-color: #fff;
     position: absolute;
     left: 0;
     top: 103%;
     z-index: 1000;
-    background-color: white;
     min-width: 200px;
     text-align: left;
     -webkit-box-shadow: 0 0 1px rgba(57,70,78,.15), 0 20px 55px -8px rgba(57,70,78,.25);
